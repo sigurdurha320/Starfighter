@@ -187,7 +187,6 @@ THREE.FlyControls = function ( object, domElement ) {
 		// expose the rotation vector for convenience
 		this.object.rotation.setFromQuaternion( this.object.quaternion, this.object.rotation.order );
 
-
 	};
 
 	this.updateMovementVector = function() {
